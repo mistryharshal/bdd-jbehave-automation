@@ -1,0 +1,38 @@
+<story path="stories/dvla.story" title="">
+<scenario keyword="Scenario:" title="Car colour check">
+<examples keyword="Examples:">
+<step>Given a config directory with many files</step>
+<step>When the user scans the directory for file details using service bean</step>
+<step>Then all the file details under that directory are displayed</step>
+<step>When the user reads the excel file [fileName] for Car Registration details</step>
+<step>And the user is on the dvla webpage</step>
+<step>And the user enters car details for row</step>
+<step>Then the car details are validated</step>
+<step>When user clicks back button</step>
+<step>And the user enters car details for row</step>
+<step>Then the car details are validated</step>
+<step>When user clicks back button</step>
+<step>And the user enters car details for row</step>
+<step>Then the car details are validated</step>
+<parameters>
+<names><name>fileName</name></names>
+<values><value>CarDetails.csv</value></values>
+</parameters>
+
+<example keyword="Example:">{fileName=CarDetails.csv}</example>
+<step outcome="successful">Given a config directory with many files</step>
+<step outcome="successful">When the user scans the directory for file details using service bean</step>
+<step outcome="successful">Then all the file details under that directory are displayed</step>
+<step outcome="successful">When the user reads the excel file [fileName] for Car Registration details</step>
+<step outcome="successful">And the user is on the dvla webpage</step>
+<step outcome="successful">And the user enters car details for row</step>
+<step outcome="successful">Then the car details are validated</step>
+<step outcome="successful">When user clicks back button</step>
+<step outcome="successful">And the user enters car details for row</step>
+<step outcome="successful">Then the car details are validated</step>
+<step outcome="successful">When user clicks back button</step>
+<step outcome="successful">And the user enters car details for row</step>
+<step outcome="successful">Then the car details are validated</step>
+</examples>
+</scenario>
+</story>

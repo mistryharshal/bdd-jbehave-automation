@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.demo.selenium.automation.bdd_jbehave_automation.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.51 sec - in com.demo.selenium.automation.bdd_jbehave_automation.AcceptanceTestSuite
